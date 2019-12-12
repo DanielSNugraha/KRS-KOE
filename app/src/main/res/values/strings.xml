@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Aplikasi KRS</string>
+    <string name="krs_koe">krs-koe</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="data_diri">Data Diri</string>
+    <string name="daftar_krs">Daftar KRS</string>
+    <string name="lihat_kelas">Lihat Kelas</string>
+    <string name="daftar_dosen">Daftar Dosen</string>
+    <string name="daftar_matkul">Daftar Matkul</string>
+    <string name="kelola_krs">Kelola KRS</string>
+    <string name="textview">TextView</string>
+    <string name="gelar">gelar</string>
+    <string name="alamat">alamat</string>
+    <string name="nama">Nama</string>
+    <string name="nidn">NIDN</string>
+    <string name="alamatbesar">Alamat</string>
+    <string name="emailk">Email</string>
+    <string name="gelark">Gelar</string>
+    <string name="simpan">Simpan</string>
+    <string name="browse">Browse</string>
+    <string name="foto">Foto</string>
+    <string name="nim">NIM</string>
+    <string name="hari">Hari :</string>
+    <string name="sesi">Sesi :</string>
+    <string name="strip">-</string>
+    <string name="kode">Kode</string>
+    <string name="matkul">MATKUL</string>
+    <string name="sks">sks</string>
+    <string name="sksbesar">Sks</string>
+    <string name="dosen">Dosen</string>
+    <string name="jumlah_mhs">Jumlah Mhs :</string>
+    <string name="sign_in_mahasiswa">SIGN IN MAHASISWA</string>
+</resources>

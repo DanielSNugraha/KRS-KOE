@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplikasikrs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logoapp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logoapp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Admin.EditDosenActivity"></activity>
+        <activity android:name=".Mahasiswa.DataDiriMhsActivity" />
+        <activity android:name=".Mahasiswa.RecyclerViewKelas" />
+        <activity android:name=".Admin.CreateKrsActivity" />
+        <activity android:name=".Admin.RecyclerViewDaftarKrs" />
+        <activity android:name=".Admin.CreateMatkulActivity" />
+        <activity android:name=".Admin.RecyclerViewDaftarMatkul" />
+        <activity android:name=".Admin.CreateMhsActivity" />
+        <activity android:name=".Admin.RecyclerViewDaftarMhs" />
+        <activity android:name=".Admin.CreateDosenActivity" />
+        <activity android:name=".Admin.RecyclerViewDaftarDosen" />
+        <activity android:name=".Admin.HomeAdmin" />
+        <activity android:name=".Mahasiswa.HomeDosen" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

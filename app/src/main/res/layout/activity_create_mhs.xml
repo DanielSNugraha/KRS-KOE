@@ -106,7 +106,7 @@
         app:layout_constraintTop_toBottomOf="@+id/edtNimMhs" />
 
     <Button
-        android:id="@+id/btnBrowseFotoDosen"
+        android:id="@+id/btnBrowseMhs"
         android:layout_width="82dp"
         android:layout_height="33dp"
         android:layout_marginStart="28dp"
@@ -126,6 +126,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnBrowseFotoDosen" />
+        app:layout_constraintTop_toBottomOf="@+id/btnBrowseMhs" />
+
+    <ImageView
+        android:id="@+id/imgFotoMahasiswaPre"
+        android:layout_width="167dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCreateMhs"
+        app:srcCompat="@mipmap/ic_launcher" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
